@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Daisy flower in a hand-drawn/organic style -->
+  <g stroke="#1A1A1A" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Petals -->
+    <path d="M 50,50 C 48,32 52,32 50,15 C 52,32 55,32 50,50 Z" fill="#FBF8F3" />
+    <path d="M 50,50 C 62,38 65,42 75,25 C 68,42 63,45 50,50 Z" fill="#FBF8F3" />
+    <path d="M 50,50 C 68,52 68,48 85,50 C 68,52 68,55 50,50 Z" fill="#FBF8F3" />
+    <path d="M 50,50 C 62,62 65,58 75,75 C 65,65 62,62 50,50 Z" fill="#FBF8F3" />
+    <path d="M 50,50 C 48,68 52,68 50,85 C 48,68 45,68 50,50 Z" fill="#FBF8F3" />
+    <path d="M 50,50 C 38,62 35,58 25,75 C 35,65 38,62 50,50 Z" fill="#FBF8F3" />
+    <path d="M 50,50 C 32,48 32,52 15,50 C 32,48 32,45 50,50 Z" fill="#FBF8F3" />
+    <path d="M 50,50 C 38,38 35,42 25,25 C 35,42 38,45 50,50 Z" fill="#FBF8F3" />
+    
+    <!-- Central disk with slightly irregular, hand-drawn look -->
+    <path d="M 45,45 C 40,50 42,58 48,56 C 54,58 58,52 56,46 C 54,42 46,40 45,45 Z" fill="#E8BE6B" />
+  </g>
+</svg>

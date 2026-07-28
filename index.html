@@ -5,19 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- SEO Básico -->
-  <title>Convite de Aniversário - Isabella 19 Anos</title>
-  <meta name="description" content="Você está convidado para celebrar os 19 anos da Isabella! Venha participar de uma noite inesquecível à beira do lago.">
-  <meta name="author" content="Isabella">
+  <title>Júlia faz 17 💐 | 09.08.2026</title>
+  <meta name="description" content="Você está convidado para celebrar os 17 anos da Júlia em uma tarde especial no Lago Paranoá.">
+  <meta name="author" content="Júlia">
   
   <!-- Open Graph / Facebook / WhatsApp -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Convite de Aniversário - Isabella 19 Anos">
-  <meta property="og:description" content="Venha celebrar os 19 anos da Isabella em uma noite muito especial no Famiglia Pastrini (ao lado do Pier 21). Confirme sua presença!">
-  <meta property="og:image" content="assets/isabella.png">
-  <meta property="og:url" content="https://isabella19.com.br"> <!-- Exemplo de URL -->
+  <meta property="og:title" content="Júlia faz 17 💐 | 09.08.2026">
+  <meta property="og:description" content="Você está convidado para celebrar os 17 anos da Júlia em uma tarde especial no Lago Paranoá. Confirme sua presença!">
+  <meta property="og:image" content="assets/og-image.png">
+  <meta property="og:url" content="https://danielcs1609.github.io/convite-aniversario-julia">
 
   <!-- Favicon -->
   <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Ms+Madi&family=Outfit:wght@300;400;500;600;700&family=Sacramento&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
 
   <!-- Estilos CSS -->
   <link rel="stylesheet" href="css/style.css">
@@ -27,207 +32,264 @@
 </head>
 <body>
 
-  <!-- ==========================================================================
-     HERO SECTION
-     ========================================================================== -->
-  <header class="hero">
-    <div class="container">
-      <div class="hero-portrait-wrapper">
-        <img src="assets/isabella.png" alt="Foto da aniversariante Isabella" class="hero-portrait" width="280" height="280">
-      </div>
-      <div class="hero-badge">Isabella faz 19</div>
-      <h1>🎉 Você está convidado!</h1>
-      <p class="hero-subtitle">
-        Venha celebrar os 19 anos da Isabella em uma noite muito especial.
-      </p>
-      <a href="https://wa.me/5561993036841?text=Ol%C3%A1%20Isabella!%20Fiquei%20muito%20feliz%20com%20o%20convite%20e%20confirmo%20minha%20presen%C3%A7a%20na%20celebra%C3%A7%C3%A3o%20do%20seu%20anivers%C3%A1rio%20de%2019%20anos!%20%F0%9F%8E%89" class="btn btn-gold" id="btn-hero-rsvp" target="_blank" rel="noopener noreferrer">
-        Confirmar Presença
-        <i data-lucide="message-circle"></i>
-      </a>
+  <!-- Elementos Florais de Fundo (Decorativos/Parallax) -->
+  <div class="floral-decorations" aria-hidden="true">
+    <div class="flower top-left float-slow">
+      <img src="assets/leaf-branch.svg" alt="Ramo floral">
     </div>
-  </header>
+    <div class="flower top-right float-medium">
+      <img src="assets/flower-blue.svg" alt="Flor azul">
+    </div>
+    <div class="flower mid-left-1 float-fast">
+      <img src="assets/flower-wine.svg" alt="Flor vinho">
+    </div>
+    <div class="flower mid-right-1 float-slow">
+      <img src="assets/flower-daisy.svg" alt="Margarida">
+    </div>
+    <div class="flower mid-left-2 float-medium">
+      <img src="assets/flower-blue.svg" alt="Flor azul">
+    </div>
+    <div class="flower mid-right-2 float-fast">
+      <img src="assets/flower-wine.svg" alt="Flor vinho">
+    </div>
+    <div class="flower bottom-left float-slow">
+      <img src="assets/flower-daisy.svg" alt="Margarida">
+    </div>
+    <div class="flower bottom-right float-medium">
+      <img src="assets/leaf-branch.svg" alt="Ramo floral">
+    </div>
+  </div>
 
-  <!-- ==========================================================================
-     INFORMAÇÕES SECTION
-     ========================================================================== -->
-  <section class="info-section" id="informacoes">
-    <div class="container">
-      <div class="card info-card reveal">
-        <h2 class="info-title">🎂 Aniversário de 19 anos da Isabella</h2>
+  <!-- Wrapper Principal -->
+  <div class="app-wrapper">
+
+    <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+    <header class="hero">
+      <div class="hero-floral-frame">
+        <img class="hero-flower-tl" src="assets/leaf-branch.svg" alt="" aria-hidden="true">
+        <img class="hero-flower-tr" src="assets/flower-blue.svg" alt="" aria-hidden="true">
+        <img class="hero-flower-bl" src="assets/flower-wine.svg" alt="" aria-hidden="true">
+        <img class="hero-flower-br" src="assets/flower-daisy.svg" alt="" aria-hidden="true">
+      </div>
+      <div class="container hero-content">
+        <div class="hero-title-group reveal">
+          <h1 class="hero-name">Júlia</h1>
+          <p class="hero-age">faz 17 anos</p>
+        </div>
         
-        <div class="info-grid">
-          <!-- Data -->
-          <div class="info-item">
-            <i data-lucide="calendar"></i>
-            <span class="info-item-label">Data</span>
-            <span class="info-item-value">23 de Julho</span>
-            <span class="info-item-value" style="font-weight: normal; font-size: 0.85rem;">Quinta-feira</span>
-          </div>
-          
-          <!-- Horário -->
-          <div class="info-item">
-            <i data-lucide="clock"></i>
-            <span class="info-item-label">Horário</span>
-            <span class="info-item-value">19:00h</span>
-          </div>
-          
-          <!-- Local -->
-          <div class="info-item">
-            <i data-lucide="map-pin"></i>
-            <span class="info-item-label">Local</span>
-            <span class="info-item-value">Famiglia Pastrini</span>
-            <span class="info-item-value" style="font-weight: normal; font-size: 0.85rem;">Ao lado do Pier 21</span>
-          </div>
+        <div class="hero-details-group reveal delay-1">
+          <div class="hero-date">09.08.2026</div>
+          <div class="hero-divider"></div>
+          <div class="hero-time-location">15H &bull; LAGO PARANOÁ</div>
         </div>
 
-        <p class="info-quote">
-          "Sua presença tornará essa noite ainda mais especial. Esperamos você para comemorarmos juntos!"
+        <p class="hero-tagline reveal delay-2">
+          Um convite para viver uma tarde inesquecível.
         </p>
       </div>
-    </div>
-  </section>
 
-  <!-- ==========================================================================
-     LOCALIZAÇÃO SECTION
-     ========================================================================== -->
-  <section class="location-section" id="como-chegar">
-    <div class="container">
-      <h2 class="text-center reveal">Como chegar</h2>
-      
-      <div class="location-wrapper reveal delay-1">
-        <div class="map-container">
-          <!-- Google Maps Embed para o Restaurante Famiglia Pastrini -->
-          <iframe src="https://maps.google.com/maps?q=Famiglia%20Pastrini%20Brasilia&t=&z=15&ie=UTF8&iwloc=&output=embed" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      <div class="scroll-indicator reveal delay-3">
+        <a href="#mensagem" aria-label="Rolar para a mensagem do convite">
+          <span class="scroll-line"></span>
+        </a>
+      </div>
+    </header>
+
+    <!-- ==========================================================================
+       MENSAGEM DO CONVITE
+       ========================================================================== -->
+    <section class="message-section" id="mensagem">
+      <div class="container">
+        <div class="message-card reveal">
+          <div class="message-header-flower">
+            <img src="assets/flower-blue.svg" alt="" aria-hidden="true" width="40">
+          </div>
+          <p class="message-text">
+            Chegou a hora de celebrar meus <strong>17 anos</strong> com um passeio especial no <strong>Lago Paranoá</strong>! 🛥️🌊
+          </p>
+          <p class="message-text-highlight">
+            Preparem-se para uma tarde cheia de cores, alegria e momentos inesquecíveis ao pôr do sol. 🌅💐
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       DATA E HORÁRIOS
+       ========================================================================== -->
+    <section class="datetime-section" id="data-horario">
+      <div class="container">
+        <div class="editorial-divider reveal">
+          <img src="assets/leaf-branch.svg" alt="" aria-hidden="true" class="divider-branch">
         </div>
         
-        <div class="text-center">
-          <a href="https://www.google.com/maps/search/?api=1&query=Famiglia+Pastrini+Brasilia" class="btn btn-outline" id="btn-open-maps" target="_blank" rel="noopener noreferrer">
-            <i data-lucide="map-pin"></i>
-            Abrir no Google Maps
-            <i data-lucide="arrow-up-right"></i>
+        <div class="datetime-grid">
+          <!-- Bloco da Data -->
+          <div class="datetime-block reveal">
+            <h3 class="datetime-title">A Data</h3>
+            <div class="editorial-date">
+              <span class="date-day">09</span>
+              <span class="date-month">AGOSTO</span>
+              <span class="date-year">2026</span>
+            </div>
+            <p class="date-weekday">Domingo</p>
+          </div>
+          
+          <!-- Bloco dos Horários -->
+          <div class="datetime-block reveal delay-1">
+            <h3 class="datetime-title">Os Horários</h3>
+            <div class="editorial-time">
+              <div class="time-item highlight">
+                <span class="time-label">Embarque</span>
+                <span class="time-hour">15h</span>
+                <span class="time-note">EM PONTO!</span>
+              </div>
+              <div class="time-divider-line"></div>
+              <div class="time-item">
+                <span class="time-label">Retorno</span>
+                <span class="time-hour">19h</span>
+                <span class="time-note">Fim de tarde</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       CONTAGEM REGRESSIVA
+       ========================================================================== -->
+    <section class="countdown-section" id="contagem">
+      <div class="container">
+        <div class="countdown-card reveal">
+          <h2 class="countdown-title">Está chegando...</h2>
+          <div class="countdown-grid" id="timer">
+            <div class="countdown-item">
+              <span class="countdown-num" id="days">00</span>
+              <span class="countdown-label">Dias</span>
+            </div>
+            <div class="countdown-colon">:</div>
+            <div class="countdown-item">
+              <span class="countdown-num" id="hours">00</span>
+              <span class="countdown-label">Horas</span>
+            </div>
+            <div class="countdown-colon">:</div>
+            <div class="countdown-item">
+              <span class="countdown-num" id="minutes">00</span>
+              <span class="countdown-label">Min</span>
+            </div>
+            <div class="countdown-colon">:</div>
+            <div class="countdown-item">
+              <span class="countdown-num" id="seconds">00</span>
+              <span class="countdown-label">Seg</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       EXPERIÊNCIA
+       ========================================================================== -->
+    <section class="experience-section" id="experiencia">
+      <div class="container text-center">
+        <h2 class="section-title reveal">Uma tarde para guardar na memória</h2>
+        <p class="section-subtitle reveal delay-1">
+          Entre o azul do Lago Paranoá, boas companhias e o pôr do sol de Brasília, vamos celebrar juntos esse novo ciclo.
+        </p>
+        
+        <div class="experience-illustration-wrapper reveal delay-2">
+          <img src="assets/experience-illustration.svg" alt="Ilustração do barco no Lago Paranoá ao pôr do sol" class="experience-illustration">
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       LOCALIZAÇÃO
+       ========================================================================== -->
+    <section class="location-section" id="localizacao">
+      <div class="container">
+        <h2 class="section-title reveal">Nos encontramos aqui</h2>
+        <p class="location-address reveal delay-1">
+          Setor de Clubes Esportivos Sul, Trecho 2<br>
+          <strong>Deck Coco Bambu</strong> - Asa Sul, Brasília - DF
+        </p>
+
+        <div class="location-wrapper reveal delay-2">
+          <div class="map-container">
+            <!-- Google Maps Embed para o Restaurante Coco Bambu Lago Sul -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5617.017828468393!2d-47.87143124892493!3d-15.822771443941972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a252420485329%3A0xb140e9641d0a66e5!2sDeck%20Coco%20Bambu!5e1!3m2!1spt-BR!2sbr!4v1785270568037!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          </div>
+          
+          <div class="location-info-notes text-center">
+            <p class="note-time"><i class="note-dot"></i> Embarque às 15h em ponto.</p>
+            <p class="note-tip">Planeje sua chegada com alguns minutos de antecedência ♡</p>
+          </div>
+
+          <div class="text-center">
+            <a href="https://maps.app.goo.gl/3BcH9wauGaK5XrHU8?g_st=ac" class="btn btn-outline" id="btn-open-maps" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="map-pin"></i>
+              Abrir no Google Maps
+              <i data-lucide="external-link"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       RSVP (CONFIRMAÇÃO DE PRESENÇA)
+       ========================================================================== -->
+    <section class="rsvp-section" id="rsvp">
+      <div class="container">
+        <div class="rsvp-card reveal">
+          <div class="rsvp-flower-decor">
+            <img src="assets/flower-wine.svg" alt="" aria-hidden="true" width="45">
+          </div>
+          <h2 class="rsvp-title">Você vem?</h2>
+          <p class="rsvp-text">
+            Confirme sua presença até o dia <strong>06 de agosto</strong>!
+          </p>
+          <p class="rsvp-subtext">
+            É super importante para acertarmos todos os detalhes do passeio.
+          </p>
+          
+          <a href="https://wa.me/556191612331?text=Oii!%20%F0%9F%92%90%20Vim%20confirmar%20minha%20presen%C3%A7a%20nos%2017%20anos%20da%20J%C3%BAlia!%20%F0%9F%A5%B0%E2%9C%A8%0AEstou%20muito%20feliz%20em%20poder%20comemorar%20esse%20momento%20com%20voc%C3%AAs!%20%F0%9F%92%99" class="btn btn-gold" id="btn-rsvp-whatsapp" target="_blank" rel="noopener noreferrer">
+            <i data-lucide="message-circle"></i>
+            Confirmar Presença
           </a>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- ==========================================================================
-     CARDÁPIO SECTION
-     ========================================================================== -->
-  <section class="menu-section" id="cardapio">
-    <div class="container">
-      <h2 class="text-center reveal">Cardápio</h2>
-      <p class="menu-intro text-center reveal delay-1">
-        O restaurante conta com um rodízio completo e variado com mais de 100 opções de pratos, incluindo massas artesanais, risotos cremosos, pizzas doces e salgadas, sushis e hambúrgueres.
-      </p>
-
-      <div class="menu-gallery reveal delay-2">
-        <!-- Prato 1 -->
-        <div class="menu-item">
-          <img src="assets/prato1.png" alt="Deliciosas massas e risotos artesanais" class="menu-img" loading="lazy">
-          <div class="menu-overlay">
-            <h3 class="menu-title">Massas e Risotos</h3>
-          </div>
-        </div>
-
-        <!-- Prato 2 -->
-        <div class="menu-item">
-          <img src="assets/prato2.png" alt="Pizzas doces e salgadas preparadas no capricho" class="menu-img" loading="lazy">
-          <div class="menu-overlay">
-            <h3 class="menu-title">Pizzas Especiais</h3>
-          </div>
-        </div>
-
-        <!-- Prato 3 -->
-        <div class="menu-item">
-          <img src="assets/prato3.png" alt="Buffet de sushis e culinária oriental" class="menu-img" loading="lazy">
-          <div class="menu-overlay">
-            <h3 class="menu-title">Sushis Variados</h3>
+          <!-- Aviso Importante Integrado -->
+          <div class="rsvp-warning-card">
+            <p>
+              Como o passeio depende da quantidade de convidados, sua confirmação é muito importante para organizarmos tudo com carinho.
+            </p>
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="menu-action reveal delay-3">
-        <a href="https://www.instagram.com/famigliapastrini/" class="btn btn-outline" id="btn-menu-complete" target="_blank" rel="noopener noreferrer">
-          <i data-lucide="instagram"></i>
-          Ver Instagram do Restaurante
-        </a>
+    <!-- ==========================================================================
+       FINAL DA PÁGINA / RODAPÉ
+       ========================================================================== -->
+    <footer class="footer">
+      <div class="footer-floral-bottom">
+        <img class="footer-flower-l" src="assets/flower-daisy.svg" alt="" aria-hidden="true">
+        <img class="footer-flower-c" src="assets/leaf-branch.svg" alt="" aria-hidden="true">
+        <img class="footer-flower-r" src="assets/flower-wine.svg" alt="" aria-hidden="true">
       </div>
-    </div>
-  </section>
-
-  <!-- ==========================================================================
-     VALOR DO RODÍZIO SECTION
-     ========================================================================== -->
-  <section class="price-section section-dark" id="rodizio">
-    <div class="container">
-      <h2 class="text-center reveal">Valores do Rodízio</h2>
-      
-      <div class="card price-card reveal delay-1" style="max-width: 500px; margin: 0 auto;">
-        <h3 style="text-align: center;">Rodízio Por Pessoa</h3>
-        <p class="price-desc" style="text-align: center; margin-bottom: 25px;">Rodízio completo com pizzas, massas, risotos, sushis, hambúrgueres e sobremesas.</p>
-        
-        <div class="price-rows">
-          <!-- Segunda e Terça -->
-          <div class="price-row">
-            <span class="price-label">Segunda e Terça-feira:</span>
-            <span class="price-val">R$ 65,00 <small>/ por pessoa</small></span>
-          </div>
-          <!-- Quarta e Quinta -->
-          <div class="price-row">
-            <span class="price-label">Quarta e Quinta-feira:</span>
-            <span class="price-obs" style="font-size: 0.8rem; color: var(--color-accent-gold); font-weight: 500;">Com suco e refrigerante incluso!</span>
-            <span class="price-val">R$ 79,00 <small>/ por pessoa</small></span>
-          </div>
-          <!-- Sexta -->
-          <div class="price-row">
-            <span class="price-label">Sexta-feira:</span>
-            <span class="price-obs" style="font-size: 0.8rem; color: var(--color-accent-gold); font-weight: 500;">Com chopp incluso!</span>
-            <span class="price-val">R$ 79,00 <small>/ por pessoa</small></span>
-          </div>
-          <!-- Sábado -->
-          <div class="price-row">
-            <span class="price-label">Sábado:</span>
-            <span class="price-val">R$ 79,00 <small>/ por pessoa</small></span>
-          </div>
+      <div class="container">
+        <p class="footer-quote">Espero você para viver esse momento comigo. 💐</p>
+        <div class="footer-info">
+          <p class="footer-name">Júlia &bull; 17 anos</p>
+          <p class="footer-date">09.08.2026</p>
         </div>
       </div>
+    </footer>
 
-      <p class="price-notice text-center reveal delay-2" style="margin-top: 30px;">
-        * Valores sujeitos a alteração pelo restaurante.
-      </p>
-    </div>
-  </section>
-
-  <!-- ==========================================================================
-     RSVP (CONFIRMAÇÃO DE PRESENÇA)
-     ========================================================================== -->
-  <section class="rsvp-section" id="rsvp">
-    <div class="container">
-      <div class="card rsvp-card reveal">
-        <h2>Confirme sua presença</h2>
-        <p class="rsvp-text text-center">
-          Para nos ajudar na organização do evento, por favor confirme sua presença clicando no botão abaixo e enviando a mensagem automática via WhatsApp.
-        </p>
-        <a href="https://wa.me/5561993036841?text=Ol%C3%A1%20Isabella!%20Fiquei%20muito%20feliz%20com%20o%20convite%20e%20confirmo%20minha%20presen%C3%A7a%20na%20celebra%C3%A7%C3%A3o%20do%20seu%20anivers%C3%A1rio%20de%2019%20anos!%20%F0%9F%8E%89" class="btn btn-gold" id="btn-rsvp-whatsapp" target="_blank" rel="noopener noreferrer">
-          <i data-lucide="message-circle"></i>
-          Confirmar pelo WhatsApp
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==========================================================================
-     RODAPÉ SECTION
-     ========================================================================== -->
-  <footer class="footer">
-    <div class="container">
-      <p class="footer-quote">"Será uma alegria compartilhar esse momento com você."</p>
-      <p class="footer-credits">
-        Feito com <span class="footer-heart">❤️</span> para celebrar os 19 anos da Isabella.
-      </p>
-    </div>
-  </footer>
+  </div>
 
   <!-- Scripts JS -->
   <script src="js/app.js" charset="UTF-8"></script>

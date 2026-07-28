@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Wine-red hand-drawn style clover/cluster flower -->
+  <g stroke="#1A1A1A" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Stem and leaves -->
+    <path d="M 50,55 L 50,90" fill="none" stroke="#7A8B60" stroke-width="1.8" />
+    <path d="M 50,70 Q 30,68 28,55 C 32,50 42,60 50,70" fill="#7A8B60" />
+    <path d="M 50,75 Q 70,72 72,60 C 68,55 58,65 50,75" fill="#7A8B60" />
+    
+    <!-- Flower heads (cluster of grape-like nodes) -->
+    <circle cx="50" cy="48" r="10" fill="#6E2E39" />
+    <circle cx="42" cy="40" r="9" fill="#6E2E39" />
+    <circle cx="58" cy="40" r="9" fill="#6E2E39" />
+    <circle cx="50" cy="30" r="9" fill="#6E2E39" />
+    <circle cx="40" cy="28" r="8" fill="#6E2E39" />
+    <circle cx="60" cy="28" r="8" fill="#6E2E39" />
+    <circle cx="50" cy="18" r="7" fill="#6E2E39" />
+    
+    <!-- Small highlights -->
+    <path d="M 49,46 A 4,4 0 0,1 46,42" fill="none" stroke="#FAF7F2" stroke-width="0.8" opacity="0.6" />
+    <path d="M 40,38 A 4,4 0 0,1 38,34" fill="none" stroke="#FAF7F2" stroke-width="0.8" opacity="0.6" />
+    <path d="M 56,38 A 4,4 0 0,1 54,34" fill="none" stroke="#FAF7F2" stroke-width="0.8" opacity="0.6" />
+  </g>
+</svg>
