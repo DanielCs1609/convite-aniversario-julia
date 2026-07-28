@@ -15,11 +15,11 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /**
- * Contagem Regressiva para 09 de Agosto de 2026 às 15:00 (America/Sao_Paulo / UTC-3)
+ * Contagem Regressiva para 07 de Agosto de 2026 às 15:00 (America/Sao_Paulo / UTC-3)
  */
 function setupCountdown() {
   // Data alvo com offset de fuso horário de Brasília (UTC-3)
-  const targetDate = new Date("2026-08-09T15:00:00-03:00").getTime();
+  const targetDate = new Date("2026-08-07T15:00:00-03:00").getTime();
   
   const daysEl = document.getElementById("days");
   const hoursEl = document.getElementById("hours");
