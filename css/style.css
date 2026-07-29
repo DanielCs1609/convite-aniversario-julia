@@ -836,6 +836,35 @@ section {
   line-height: 1.6;
 }
 
+/* Card de Aviso da Água (Vinho/Destaque) */
+.water-warning-card {
+  background-color: rgba(110, 46, 57, 0.05); /* 5% opacidade da cor vinho */
+  border-left: 3px solid var(--color-wine);
+  padding: 16px 20px;
+  border-radius: 4px;
+  margin-top: 30px;
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.water-warning-card i {
+  color: var(--color-wine);
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.water-warning-card p {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--color-wine);
+  line-height: 1.5;
+  font-weight: 500;
+  margin: 0;
+}
+
 /* ----------------------------------
    8. Encerramento / Footer
    ---------------------------------- */
